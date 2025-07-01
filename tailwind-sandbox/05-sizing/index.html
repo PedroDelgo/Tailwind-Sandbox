@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Sizing</title>
-  </head>
-  <body>
-    <!-- Width -->
 
-    <!-- Percentages -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Sizing</title>
+</head>
 
-    <!-- Width of the viewport -->
+<body>
+  <!-- Width -->
+  <div class="bg-black text-white w-20">OIIIIIII</div>
+  <div class="bg-black text-white w-96">OIIIIIII</div>
+  <div class="bg-black text-white w-1">OIIIIIII</div>
+  <div class="bg-black text-white w-10">OIIIIIII</div>
+  <!-- Percentages -->
+  <div class="bg-slate-500 text-white w-1/4">OIIIIIII</div>
+  <!--Bem auto explicativo é em porcentagem um quarto da tela -->
+  <div class="bg-slate-500 text-white w-1/3">OIIIIIII</div>
+  <div class="bg-slate-500 text-white w-1/2">OIIIIIII</div> <!-- Aqui é 50% da tela-->
+  <!-- Width of the viewport -->
+  <div class="bg-orange-500 w-screen">OIIIIIII</div> <!--Aqui equivale ae 100vw-->
+  <!-- 100% of container -->
+  <div class="bg-red-500 w-full">OIIIIIII</div> <!--Aqui é 100%-->
+  <!-- min/max content -->
+  <div class="bg-orange-600 w-[200px]">OIIIIIII</div>
+  <!-- Arbitrary width -->
 
-    <!-- 100% of container -->
+  <!-- Max Width --> <!--Podemos utilizar os valores ja definido do tailwind sm m lg xlg 2xlg-->
 
-    <!-- min/max content -->
+  <div class="bg-sky-500 max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero eligendi
+    adipisci, cumque officiis exercitationem illo cum suscipit totam, labore tenetur voluptatum sequi deserunt
+    distinctio quas quos accusamus dolor vitae!</div>
+  <div class="bg-sky-700 max-w-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero eligendi
+    adipisci, cumque officiis exercitationem illo cum suscipit totam, labore tenetur voluptatum sequi deserunt
+    distinctio quas quos accusamus dolor vitae!</div>
 
-    <!-- Arbitrary width -->
+  <!-- Height (Most of the same options as widths) -->
+  <div class="flex items-end">
+    <div class="bg-green-500 w-20 h-20">Pedro</div>
+    <div class="bg-green-500 w-20 h-36">Pedro</div>
+    <div class="bg-green-500 w-20 h-40">Pedro</div>
+    <div class="bg-green-500 w-20 h-60">Pedro</div>
+    <div class="bg-green-500 w-20 h-72">Pedro</div>
+    <div class="bg-green-500 w-20 h-96">Pedro</div>
+  </div>
+  <!-- Min Height -->
 
-    <!-- Max Width -->
+  <!-- Max Height -->
+  <div class="bg-yellow-500 w-20 w-screen h-screen">Pedro</div>
+  <!-- Full screen height -->
+</body>
 
-    <!-- Height (Most of the same options as widths) -->
-
-    <!-- Min Height -->
-
-    <!-- Max Height -->
-
-    <!-- Full screen height -->
-  </body>
 </html>
 
 <!-- 
