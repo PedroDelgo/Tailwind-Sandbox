@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
 
-    <!-- Top left corner -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>TailwindCSS</title>
+</head>
 
-    <!-- Top right corner -->
+<body>
+  <!-- Positioning -->
+  <div class="relative w-1/2 h-12 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 bottom-0 right-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Top left corner -->
+  <h4>Top left corner</h4>
+  <div class="relative w-1/2 h-12 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 top-0 left-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Top right corner -->
+  <h4>Top right corner</h4>
+  <div class="relative w-1/2 h-12 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 top-0 right-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Bottom left corner -->
+  <h4>Bottom left corner</h4>
+  <div class="relative w-1/2 h-12 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 bottom-0 left-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Bottom right corner -->
+  <h4>Bottom right corner</h4>
+  <div class="relative w-1/2 h-12 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 bottom-0 right-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Span top edge --> <!--A tradução de span é vão é um espaço um "gap"-->
+  <h4>Span top edge</h4>
+  <div class="relative w-1/2 h-32 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 inset-x-0 top-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Span left edge -->
+  <h4>Span left edge</h4>
+  <div class="relative w-1/2 h-32 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 inset-y-0 left-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Span right edge -->
+  <h4>Span right edge</h4>
+  <div class="relative w-1/2 h-32 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 inset-y-0 right-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Span bottom edge -->
+  <h4>Span bottom edge</h4>
+  <div class="relative w-1/2 h-32 bg-red-500">
+    <p>Elemento pai</p>
+    <div class="absolute bg-cyan-500 inset-x-0 bottom-0">
+      <p>Elemento Filho</p>
+    </div>
+  </div>
+  <!-- Display Classes -->
+  <div> <!--O display hidden é display none-->
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus aspernatur iusto <span
+      class="inline font-bold"> Aqui esta na linha</span> ut dignissimos nostrum minus autem, beatae quos distinctio
+    explicabo molestiae delectus, modi asperiores! Sed, reprehenderit rerum <span class="inline-block font-bold">Aqui
+      esta na linha em bloco</span> delectus sint eum eos consequuntur necessitatibus animi porro similique totam.
+    Eligendi <span class="block font-bold">Aqui esta em bloco</span> id a quae animi, consequuntur distinctio sapiente
+    odit perferendis excepturi, beatae perspiciatis alias deleniti vero adipisci ducimus quisquam. <span
+      class="hidden font-bold"> Aqui esta escondido</span> Eveniet totam voluptatum alias?
+  </div>
+  <!-- Z-Index --> <!--quanto maior o valor mais proximo da tela sera o elemento.-->
+  <div class="relative">
+    <div class="absolute bg-cyan-100 w-24 h-24 z-30 ">Item 1</div>
+    <div class="absolute bg-cyan-200 w-24 h-24 left-20">Item 2</div>
+    <div class="absolute bg-cyan-300 w-24 h-24 left-40">Item 3</div>
+    <div class="absolute bg-cyan-400 w-24 h-24 left-60 z-40">Item 4</div>
+    <div class="absolute bg-cyan-500 w-24 h-24 left-80">Item 5</div>
+  </div>
 
-    <!-- Bottom left corner -->
+  <!-- Floats -->
+</body>
 
-    <!-- Bottom right corner -->
-
-    <!-- Span top edge -->
-
-    <!-- Span left edge -->
-
-    <!-- Span right edge -->
-
-    <!-- Span bottom edge -->
-
-    <!-- Display Classes -->
-
-    <!-- Z-Index -->
-
-    <!-- Floats -->
-  </body>
 </html>
 
 <!-- Position Classes
