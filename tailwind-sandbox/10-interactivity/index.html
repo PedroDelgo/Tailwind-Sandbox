@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Interactivity</title>
-  </head>
-  <body>
-    <!-- Hover State Styling -->
 
-    <!-- Focus State Styling -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Interactivity</title>
+</head>
 
-    <!-- Active State Styling -->
+<body>
+  <!-- Hover State Styling -->
+  <button class="w-40 h-26 bg-black text-white rounded-lg m-4 hover:bg-orange-500 text-black">Clique</button>
 
-    <!-- Styling based on parent state -->
+  <!-- Focus State Styling -->
+  <button class="w-40 h-26 bg-black text-white rounded-lg m-4 focus:bg-green-500 ">Clique</button>
+  <!-- Active State Styling -->
+  <button class="w-40 h-26 bg-black text-white rounded-lg m-4 active:bg-green-500 ">Clique</button>
+  <!-- Styling based on parent state -->
 
-    <!-- Pseudo Classes -->
+  <!-- Pseudo Classes -->
 
-    <!-- Appearance -->
-    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+  <!-- Appearance --> <!--Retirar a estilização de componentes do navegador exemplo link e outras coisas-->
+  <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
 
-    <!-- Cursor -->
+  <!-- Cursor -->
+  <button class="w-40 h-26 bg-black text-white rounded-lg m-4 cursor-not-allowed">Clique</button>
+  <!-- Resize -->
 
-    <!-- Resize -->
+  <!-- User Select --> <!--O select none não deixa selecionar nada o text seleciona so texto se tiver imagem ele não faz nada select all ja seleciona todo o texto-->
+   <div class="select-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</div>
+   <div class="select-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</div>
+   <div class="select-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</div>
+   <div class="select-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</div>
 
-    <!-- User Select -->
+  <!-- Smooth Scroll Example -->
+   <!--Pra fazer scrollar de maneira suave basta colocar uma classe dentro da tag html scroll-smooth-->
+</body>
 
-    <!-- Smooth Scroll Example -->
-  </body>
 </html>
 
 <!-- Cursor
