@@ -1,9 +1,13 @@
+import Subscribecard from "./components/Subscribecard"
+
 function App() {
 
 
   return (
     <>
-      <p class = "bg-red-100">Hello </p>
+      <div className="bg-zinc-700 h-screen w-screen flex items-center justify-center">
+        <Subscribecard/>
+      </div>
     </>
   )
 }
