@@ -8,8 +8,8 @@ function Subscribecard() {
                     <img
                         src={image}
                         alt="card image"
-                        className='rounded-xl md:rounded-l-xl md:rounded-r-none object-fit h-80 md:h-64 hover:scale-105 duration-200' />
-                    <div className="p-6 md:p-12">
+                        className='select-none rounded-xl md:rounded-l-xl md:rounded-r-none object-fit h-80 md:h-64 hover:scale-105 duration-200' />
+                    <div className="select-none p-6 md:p-12">
                         <h2 className="text-white text-center font-medium text-xl md:text-left">
                             Faça agora sua inscrição
                         </h2>
