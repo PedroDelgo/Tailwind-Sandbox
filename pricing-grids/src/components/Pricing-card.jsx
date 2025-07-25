@@ -14,6 +14,5 @@ function PricingCard() {
     </>
   )
 }
-
 export default PricingCard
 
