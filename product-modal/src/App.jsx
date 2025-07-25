@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <p className="bg-red-400">hello</p>
+      <div className="w-full min-h-screen bg-[#f9f9f9]">
+        a
+      </div>
     </>
   )
 }
