@@ -1,8 +1,10 @@
+import ProductModal from "./components/Product-modal"
+
 function App() {
   return (
     <>
-      <div className="w-full min-h-screen bg-[#f9f9f9]">
-        a
+      <div className="flex justify-center items-center w-full min-h-screen bg-[#f9f9f9]">
+        <ProductModal/>
       </div>
     </>
   )
