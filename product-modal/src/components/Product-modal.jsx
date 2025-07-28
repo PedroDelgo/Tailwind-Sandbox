@@ -18,8 +18,8 @@ function ProductModal() {
                         <button className='text-white hover:bg-blue-700 hover:border-blue-500 duration-200 border-b-4 border-blue-700 font-bold rounded-md bg-blue-500 md:w-122 w-78 h-12 p-3' >Buy</button>
                         <p className='text-sm font-medium w-78 text-start'>50 pcs in stock</p>
                         <div className='h-100 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2'>
-                            <button className='border-2 border-black text-black font-medium rounded-sm bg-white md:w-60 md:h-12 w-78 h-12 hover:bg-blue-700 hover:text-white hover:border-0 duration-200' >Add to cart</button>
-                            <button className='border-2 border-black text-black font-medium rounded-sm bg-white md:w-60 md:h-12 w-78 h-12 hover:bg-blue-700 hover:text-white hover:border-0 duration-200' >Add to wish list</button>
+                            <button className='md:border-2 border-1 border-black text-black font-medium rounded-sm bg-white md:w-60 md:h-12 w-78 h-12 hover:bg-blue-700 hover:text-white hover:border-0 duration-200' >Add to cart</button>
+                            <button className='md:border-2 border-1 border-black text-black font-medium rounded-sm bg-white md:w-60 md:h-12 w-78 h-12 hover:bg-blue-700 hover:text-white hover:border-0 duration-200' >Add to wish list</button>
                         </div>
                     </div>
                 </div>
