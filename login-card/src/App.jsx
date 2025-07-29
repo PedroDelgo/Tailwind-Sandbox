@@ -1,8 +1,10 @@
+import LoginCard from "./components/Login-card"
+
 function App() {
   return (
     <>
-      <div className='w-full h-screen bg-red-200 flex justify-center items-center'>
-        <p></p>
+      <div className='w-full h-screen flex justify-center items-center'>
+        <LoginCard/>
       </div>
     </>
   )
