@@ -13,8 +13,8 @@ function LoginCard() {
                     </div>
                     <div className='w-full flex justify-center items-center'>
                         <input type="text"
-                            placeholder='Digite seu email'
-                            className='border-1 border-slate-300 pl-5 text-start h-19 rounded-md w-80' />
+                            placeholder='Type you email'
+                            className='border-1 border-slate-300 pl-5 text-start h-19 rounded-md w-80 md:w-full' />
                     </div>
                     <div className='border-b-2 border-slate-300 w-full h-23 flex flex-row justify-center items-center space-x-9 pb-5'>
                         <p className=' cursor-pointer hover:text-blue-500 duration-200 text-gray-400'>Forgot your password?</p>
@@ -38,8 +38,8 @@ function LoginCard() {
                         </div>
                     </div>
                 </div>
-                <div className="w-0 h-0 md:w-1/2 md:h-full flex justify-end">
-                    <img className='h-160 rounded-r-md' src={image} alt="imagem de fundo" />
+                <div className="w-0 h-0 md:w-[700px]  md:min-h-full  flex justify-end">
+                    <img className='rounded-r-md' src={image} alt="imagem de fundo" />
                 </div>
             </div>
         </>
