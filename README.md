@@ -1,6 +1,11 @@
 # Tailwind Sandbox
 
-Este repositório é dedicado ao meu processo de aprendizado e experimentação com Tailwind CSS em conjunto com React e Vite. Todos os componentes aqui desenvolvidos foram criados utilizando **React**, **Vite** e **Tailwind CSS**.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0EA5E9?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+Este repositório é dedicado ao meu processo de aprendizado e experimentação com Tailwind CSS em conjunto com React e Vite.  
+Todos os componentes aqui desenvolvidos foram criados utilizando **React**, **Vite** e **Tailwind CSS**.
 
 Cada pasta representa um componente ou projeto desenvolvido com o objetivo de praticar layouts, estilização e conceitos responsivos.
 
