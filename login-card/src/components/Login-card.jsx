@@ -14,7 +14,7 @@ function LoginCard() {
                     <div className='w-full flex justify-center items-center'>
                         <input type="text"
                             placeholder='Type you email'
-                            className='border-1 border-slate-300 pl-5 text-start h-19 rounded-md w-80 md:h-17 md:w-140' />
+                            className='border-1 border-slate-300 pl-5 text-start h-19 rounded-md w-80 md:h-17 md:w-122' />
                     </div>
                     <div className='border-b-2 md:h-30 border-slate-300 w-full h-23 flex flex-row justify-center items-center space-x-9 md:space-x-30 pb-5'>
                         <p className=' cursor-pointer hover:text-blue-500 duration-200 text-gray-400'>Forgot your password?</p>
@@ -24,7 +24,7 @@ function LoginCard() {
                         <div>
                             <p>Or login with</p>
                         </div>
-                        <div className='space-x-10 md:space-x-30 w-full flex flex-row'>
+                        <div className='space-x-10 md:space-x-28 w-full flex flex-row'>
                             <button className=' hover:bg-slate-200 md:w-50 duration-200 border-1 border-slate-300 pl-7 h-15 flex flex-row justify-center items-center space-x-2 w-40 p-2 rounded-md text-white font-bold'>
                                 <p className=' text-black font-medium'>Google</p> <img src={googleIco}
                                     alt="icone do github"
