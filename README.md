@@ -23,7 +23,7 @@ Um modal de produto com foco em animações e manipulação de estados. Ideal pa
 ### [`tailwind-sandbox`](https://github.com/PedroDelgo/Tailwind-Sandbox/tree/main/tailwind-sandbox)
 Espaço livre para testes e brincadeiras com classes utilitárias do Tailwind CSS. Aqui eu experimento comportamentos isolados sem seguir uma estrutura rígida.
 
-### [`undefined-project`](https://github.com/PedroDelgo/Tailwind-Sandbox/tree/main/undefined-project)
+### [`undefined-project`](https://github.com/PedroDelgo/Tailwind-Sandbox/tree/main/undifined-project)
 Projeto experimental contendo um componente de cartão de e-mail. Foi criado para testar responsividade e formatação de caixas de entrada simuladas.
 
 ### [`website-projects`](https://github.com/PedroDelgo/Tailwind-Sandbox/tree/main/website-projects)
