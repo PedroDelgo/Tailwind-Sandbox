@@ -1,12 +1,11 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function Skills() {
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fade-in-up');
+          entry.target.classList.remove('opacity-0', 'translate-y-4');
         }
       });
     });
@@ -23,7 +22,7 @@ function Skills() {
         {skills.map(skill => (
           <div
             key={skill}
-            className="skill-card opacity-0 transition duration-700 transform scale-95 text-center p-4 bg-white rounded shadow"
+            className="skill-card opacity-0 translate-y-4 transition-all duration-700 transform text-center p-4 bg-white rounded shadow"
           >
             <p className="text-xl font-medium">{skill}</p>
           </div>
