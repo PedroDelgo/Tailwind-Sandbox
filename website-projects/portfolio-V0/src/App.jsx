@@ -1,12 +1,20 @@
-
+import React from 'react';
+import Hero from './views/Hero';
+import Skills from './views/Skills';
+import About from './views/About';
+import Repositories from './views/Repositories';
+import Footer from './views/Footer';
 
 function App() {
-
   return (
-    <>
-      <p className="bg-red-200">oiiiii</p>
-    </>
-  )
+    <div className="scroll-smooth">
+      <Hero />
+      <Skills />
+      <About />
+      <Repositories />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
