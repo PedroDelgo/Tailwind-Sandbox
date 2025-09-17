@@ -1,7 +1,12 @@
 function App() {
   return (
     <>
-     <p className="bg-red-600 w-screen">oiiiiiiii</p>
+      {/*Hero section*/}
+      <section>
+        <div className="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
+          oiiiiiii
+        </div>
+      </section>
     </>
   )
 }
