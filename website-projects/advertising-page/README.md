@@ -1,12 +1,25 @@
-# React + Vite
+# 📢 Página de Propaganda Fictícia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🇧🇷 Sobre o Projeto
+Este é um projeto fictício desenvolvido com o objetivo de praticar conceitos de **HTML, CSS, JavaScript e React**.
+A ideia é criar uma **página de propaganda** que apresente um único produto, destacando suas qualidades de forma visual e atrativa.  
 
-Currently, two official plugins are available:
+O projeto não representa uma marca real, sendo apenas uma **demonstração acadêmica/prática** para fins de aprendizado em **desenvolvimento web e design**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔹 Funcionalidades
+- Página de apresentação de um produto fictício  
+- Layout responsivo e visual moderno   
+- Estrutura simples, ideal para fins de estudo  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🇺🇸 About the Project
+This is a **fictional project** created with the purpose of practicing **HTML, CSS, JavaScript, and React**.  
+The idea is to design a **promotional page** that showcases a single product, highlighting its features in a visual and appealing way.  
+
+The project does **not represent a real brand**, it is only an **academic/practice demo** for learning **web development and design**.
+
+### 🔹 Features
+- Single product presentation page  
+- Responsive layout with a modern look   
+- Simple structure, ideal for learning purposes  
